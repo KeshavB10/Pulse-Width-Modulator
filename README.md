@@ -1,4 +1,4 @@
-# 🧭 RTL-to-GDSII Flow for PWM Generator – Cadence Innovus
+# 🧭 RTL-to-GDSII Flow for a PWM Generator – Cadence Innovus
 
 This repository documents the complete **ASIC physical design flow** for a **Pulse Width Modulation (PWM)** generator module using **Cadence Innovus**, targeting a standard digital ASIC flow from **RTL to GDSII**.
 
@@ -8,7 +8,7 @@ This repository documents the complete **ASIC physical design flow** for a **Pul
 
 - **Design**: Pulse Width Modulation (PWM) Generator  
 - **RTL Language**: Verilog HDL  
-- **Target Technology**: [Specify foundry node if known, e.g., 45nm FreePDK or GF 12nm]  
+- **Target Technology**: SCL PDK 128nm  
 - **Tool Used**: Cadence Innovus  
 - **Flow Implemented**:  
   - Synthesis  
@@ -143,17 +143,19 @@ Successfully passes DRC/LVS.
 
 ## 📊 Reports Summary
 
-| Stage         | Status     |
-|---------------|------------|
-| Synthesis     | ✅         |
-| Floorplanning | ✅         |
-| Placement     | ✅         |
-| Power Planning| ✅         |
-| CTS           | ✅         |
-| Routing       | ✅         |
-| DRC           | ✅         |
-| LVS           | ✅         |
-| GDSII         | ✅ Finalized |
+| Stage            | Status     |
+|------------------|------------|
+| Simulation       | ✅         |
+| Synthesis        | ✅         |
+| Floorplanning    | ✅         |
+| Placement        | ✅         |
+| Power Planning   | ✅         |
+| CTS              | ✅         |
+| Routing          | ✅         |
+| DRC              | ✅         |
+| LVS              | ✅         |
+| Physical Signoff | ✅         |
+| GDSII            | ✅ Finalized |
 
 ---
 
