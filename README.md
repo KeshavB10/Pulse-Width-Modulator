@@ -168,9 +168,9 @@ Successfully passes DRC/LVS.
 
 ## 👤 Author
 
-**[Your Name]**  
+**Keshav Balakrishnan**  
 Final Year B.Tech ECE | RTL to GDSII Enthusiast  
-[LinkedIn/GitHub/Email if you'd like to share]
+LinkedIn: [https://www.linkedin.com/in/keshav-balakrishnan/]
 
 ---
 
