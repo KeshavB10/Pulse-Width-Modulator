@@ -36,7 +36,7 @@ Below are key stages of the layout, captured using **Cadence Innovus**:
 
 ### 🔲 1. Cell Placement
 
-![Cell Placement](./Cell%20Placement.png)
+![Cell Placement](./images/Cell%20Placement.png)
 
 > **Description**:  
 Standard cells are arranged in legal rows within the defined core area after floorplanning. Cells are placed considering timing, congestion, and logic proximity.
@@ -45,7 +45,7 @@ Standard cells are arranged in legal rows within the defined core area after flo
 
 ### 🔍 2. Zoomed-in Placement
 
-![Zoomed Placement](./Placement%20Zoomed.png)
+![Zoomed Placement](./images/Placement%20Zoomed.png)
 
 > **Description**:  
 A magnified view showing standard cell instances, pin placements, and localized congestion before routing.
@@ -54,7 +54,7 @@ A magnified view showing standard cell instances, pin placements, and localized 
 
 ### ⚡ 3. Power Ring and Stripes
 
-![Power Ring and Stripes](./Power%20Ring%20and%20stripes.png)
+![Power Ring and Stripes](./images/Power%20Ring%20and%20stripes.png)
 
 > **Description**:  
 Global power delivery network is constructed with:
@@ -66,7 +66,7 @@ Global power delivery network is constructed with:
 
 ### 🔌 4. Power Routing Complete
 
-![Power Routing](./Power%20Routing.png)
+![Power Routing](./images/Power%20Routing.png)
 
 > **Description**:  
 Power rings and stripes are merged, providing continuous VDD/VSS access. This is critical to minimize **IR drop** and support **EM-aware** routing.
@@ -75,7 +75,7 @@ Power rings and stripes are merged, providing continuous VDD/VSS access. This is
 
 ### 🧩 5. Filler Cells Inserted
 
-![Filler Cells](./After%20Filler%20Cells.png)
+![Filler Cells](./images/After%20Filler%20Cells.png)
 
 > **Description**:  
 Post-placement, **filler cells** are inserted to:
@@ -87,7 +87,7 @@ Post-placement, **filler cells** are inserted to:
 
 ### 🗺️ 6. GDSII Layer View
 
-![GDSII Layers](./Data_GDSII%20Layers.png)
+![GDSII Layers](./images/Data_GDSII%20Layers.png)
 
 > **Description**:  
 Snapshot of the final **GDSII stream**, showing all physical layers including:
@@ -102,7 +102,7 @@ Color-coded for clarity in metal stack and layer transitions.
 
 ### 🔗 7. GDSII – Net Visualization
 
-![GDSII Nets](./Data_GDSII%20Nets.png)
+![GDSII Nets](./images/Data_GDSII%20Nets.png)
 
 > **Description**:  
 Route view highlighting:
@@ -114,7 +114,7 @@ Route view highlighting:
 
 ### ✅ 8. Final GDSII Layout
 
-![Final GDSII](./Final%20GDSII.png)
+![Final GDSII](./images/Final%20GDSII.png)
 
 > **Description**:  
 Tape-out ready design with all components:
